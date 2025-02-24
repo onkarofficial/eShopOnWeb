@@ -7,7 +7,7 @@ on: [push, workflow_dispatch]
 env:
   RESOURCE-GROUP: rg-eshoponweb-onkarghosh
   LOCATION: eastus
-  TEMPLATE-FILE: infra/webapp1.bicep
+  TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 7c37eeeb-3ccc-419c-adad-c4b001b3f1a4
   WEBAPP-NAME: eshoponweb-webapp-onkarghosh
 
